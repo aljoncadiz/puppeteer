@@ -1,0 +1,21 @@
+{
+  "name": "chaelbot",
+  "version": "1.0.0",
+  "description": "A discord bot for making temporary channels",
+  "repository": "https://github.com/chealcadiz/chaelbot",
+  "main": "index.js",
+  "dependencies": {
+    "node-rest-client": "^3.1.0",
+    "promise-poller": "^1.7.0",
+    "puppeteer": "^1.17.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "debug": "node --inspect-brk src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "chealcadiz",
+  "license": "ISC"
+}
